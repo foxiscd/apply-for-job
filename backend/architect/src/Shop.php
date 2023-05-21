@@ -22,26 +22,35 @@ final class Shop
     public function updateQuality(): void
     {
         foreach ($this->items as $item) {
-            switch ($item->name) {
-                case Item::ITEM_BLUE_CHEESE:
-                    $this->updateBlueCheeseQuality($item);
-                    break;
-                case Item::ITEM_MJOLNIR:
-                    $this->updateMjolnirQuality($item);
-                    break;
-                case Item::ITEM_TICKET:
-                    $this->updateTicketQuality($item);
-                    break;
-                case Item::ITEM_MAGIC:
-                    $this->updateMagicQuality($item);
-                    break;
-                default:
-                    $this->updateDefaultQuality($item);
-            }
-
-            $this->checkQualityScopes($item);
-            $this->updateSellIn($item);
+            $this->updateItemQuality($item);
+            $this->updateItemSellIn($item);
         }
+    }
+
+    /**
+     * @param Item $item
+     * @return void
+     */
+    protected function updateItemQuality(Item $item): void
+    {
+        switch ($item->name) {
+            case Item::ITEM_BLUE_CHEESE:
+                $this->updateBlueCheeseQuality($item);
+                break;
+            case Item::ITEM_MJOLNIR:
+                $this->updateMjolnirQuality($item);
+                break;
+            case Item::ITEM_TICKET:
+                $this->updateTicketQuality($item);
+                break;
+            case Item::ITEM_MAGIC:
+                $this->updateMagicQuality($item);
+                break;
+            default:
+                $this->updateDefaultQuality($item);
+        }
+
+        $this->checkQualityScopes($item);
     }
 
     /**
@@ -101,7 +110,7 @@ final class Shop
      * @param Item $item
      * @return void
      */
-    protected function updateSellIn(Item $item): void
+    protected function updateItemSellIn(Item $item): void
     {
         if (!in_array($item->name, $this->exceptUpdatingSellIn())) {
             $item->sell_in--;
