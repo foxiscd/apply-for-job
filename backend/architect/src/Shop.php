@@ -31,7 +31,7 @@ final class Shop
      * @param Item $item
      * @return void
      */
-    protected function updateItemQuality(Item $item): void
+    private function updateItemQuality(Item $item): void
     {
         switch ($item->name) {
             case Item::ITEM_BLUE_CHEESE:
@@ -57,7 +57,7 @@ final class Shop
      * @param Item $item
      * @return void
      */
-    protected function updateBlueCheeseQuality(Item $item): void
+    private function updateBlueCheeseQuality(Item $item): void
     {
         $item->quality = ($item->sell_in > 0) ? $item->quality + 1 : $item->quality + 2;
     }
@@ -66,7 +66,7 @@ final class Shop
      * @param Item $item
      * @return void
      */
-    protected function updateMjolnirQuality(Item $item): void
+    private function updateMjolnirQuality(Item $item): void
     {
         $item->quality = 80;
     }
@@ -75,7 +75,7 @@ final class Shop
      * @param Item $item
      * @return void
      */
-    protected function updateTicketQuality(Item $item): void
+    private function updateTicketQuality(Item $item): void
     {
         if ($item->sell_in <= 0) {
             $item->quality = 0;
@@ -92,7 +92,7 @@ final class Shop
      * @param Item $item
      * @return void
      */
-    protected function updateMagicQuality(Item $item): void
+    private function updateMagicQuality(Item $item): void
     {
         $item->quality -= ($item->sell_in > 0) ? 2 : 4;
     }
@@ -101,7 +101,7 @@ final class Shop
      * @param Item $item
      * @return void
      */
-    protected function updateDefaultQuality(Item $item): void
+    private function updateDefaultQuality(Item $item): void
     {
         $item->quality -= ($item->sell_in > 0) ? 1 : 2;
     }
@@ -110,7 +110,7 @@ final class Shop
      * @param Item $item
      * @return void
      */
-    protected function updateItemSellIn(Item $item): void
+    private function updateItemSellIn(Item $item): void
     {
         if (!in_array($item->name, $this->exceptUpdatingSellIn())) {
             $item->sell_in--;
@@ -120,7 +120,7 @@ final class Shop
     /**
      * @return array
      */
-    protected function exceptUpdatingSellIn(): array
+    private function exceptUpdatingSellIn(): array
     {
         return [
             Item::ITEM_MJOLNIR
@@ -131,7 +131,7 @@ final class Shop
      * @param Item $item
      * @return void
      */
-    protected function checkQualityScopes(Item $item): void
+    private function checkQualityScopes(Item $item): void
     {
         $minQuality = $this->getMinQuality($item);
         $maxQuality = $this->getMaxQuality($item);
@@ -143,7 +143,7 @@ final class Shop
      * @param Item $item
      * @return int
      */
-    protected function getMinQuality(Item $item): int
+    private function getMinQuality(Item $item): int
     {
         switch ($item->name) {
             case Item::ITEM_MJOLNIR:
@@ -157,7 +157,7 @@ final class Shop
      * @param Item $item
      * @return int
      */
-    protected function getMaxQuality(Item $item): int
+    private function getMaxQuality(Item $item): int
     {
         switch ($item->name) {
             case Item::ITEM_MJOLNIR:
