@@ -6,6 +6,11 @@ namespace Shop;
 
 final class Item
 {
+    public const ITEM_MJOLNIR = 'Mjolnir';
+    public const ITEM_BLUE_CHEESE = 'Blue cheese';
+    public const ITEM_TICKET = 'Concert tickets';
+    public const ITEM_MAGIC = 'Magic cake';
+
     /**
      * @var string
      */

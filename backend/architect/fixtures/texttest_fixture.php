@@ -2,8 +2,8 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use Shop\Shop;
 use Shop\Item;
+use Shop\Shop;
 
 $items = array(
     new Item('Dexterity vest', 10, 20),
@@ -14,14 +14,14 @@ $items = array(
     new Item('Concert tickets', 15, 20),
     new Item('Concert tickets', 10, 49),
     new Item('Concert tickets', 5, 49),
-    // new Item('Magic cake', 3, 9)
+//    new Item('Magic cake', 3, 9)
 );
 
 $app = new Shop($items);
 
 $days = 2;
 if (count($argv) > 1) {
-    $days = (int) $argv[1];
+    $days = (int)$argv[1];
 }
 
 for ($i = 0; $i < $days; $i++) {
