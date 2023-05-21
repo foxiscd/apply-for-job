@@ -103,7 +103,7 @@ final class Shop
      */
     protected function updateSellIn(Item $item): void
     {
-        if (!in_array($item->name, self::exceptUpdatingSellIn())) {
+        if (!in_array($item->name, $this->exceptUpdatingSellIn())) {
             $item->sell_in--;
         }
     }
@@ -111,7 +111,7 @@ final class Shop
     /**
      * @return array
      */
-    protected static function exceptUpdatingSellIn(): array
+    protected function exceptUpdatingSellIn(): array
     {
         return [
             Item::ITEM_MJOLNIR
@@ -124,8 +124,8 @@ final class Shop
      */
     protected function checkQualityScopes(Item $item): void
     {
-        $minQuality = self::getMinQuality($item);
-        $maxQuality = self::getMaxQuality($item);
+        $minQuality = $this->getMinQuality($item);
+        $maxQuality = $this->getMaxQuality($item);
 
         $item->quality = max($minQuality, min($maxQuality, $item->quality));
     }
@@ -134,7 +134,7 @@ final class Shop
      * @param Item $item
      * @return int
      */
-    protected static function getMinQuality(Item $item): int
+    protected function getMinQuality(Item $item): int
     {
         switch ($item->name) {
             case Item::ITEM_MJOLNIR:
@@ -148,7 +148,7 @@ final class Shop
      * @param Item $item
      * @return int
      */
-    protected static function getMaxQuality(Item $item): int
+    protected function getMaxQuality(Item $item): int
     {
         switch ($item->name) {
             case Item::ITEM_MJOLNIR:
