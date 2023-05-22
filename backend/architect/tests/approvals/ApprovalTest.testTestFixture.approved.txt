@@ -8,6 +8,7 @@ Mjolnir, -1, 80
 Concert tickets, 15, 20
 Concert tickets, 10, 49
 Concert tickets, 5, 49
+Magic cake, 3, 9
 
 -------- day 1 --------
 name, sellIn, quality
@@ -19,6 +20,7 @@ Mjolnir, -1, 80
 Concert tickets, 14, 21
 Concert tickets, 9, 50
 Concert tickets, 4, 50
+Magic cake, 2, 7
 
 -------- day 2 --------
 name, sellIn, quality
@@ -30,6 +32,7 @@ Mjolnir, -1, 80
 Concert tickets, 13, 22
 Concert tickets, 8, 50
 Concert tickets, 3, 50
+Magic cake, 1, 5
 
 -------- day 3 --------
 name, sellIn, quality
@@ -41,6 +44,7 @@ Mjolnir, -1, 80
 Concert tickets, 12, 23
 Concert tickets, 7, 50
 Concert tickets, 2, 50
+Magic cake, 0, 3
 
 -------- day 4 --------
 name, sellIn, quality
@@ -52,6 +56,7 @@ Mjolnir, -1, 80
 Concert tickets, 11, 24
 Concert tickets, 6, 50
 Concert tickets, 1, 50
+Magic cake, -1, 0
 
 -------- day 5 --------
 name, sellIn, quality
@@ -63,6 +68,7 @@ Mjolnir, -1, 80
 Concert tickets, 10, 25
 Concert tickets, 5, 50
 Concert tickets, 0, 50
+Magic cake, -2, 0
 
 -------- day 6 --------
 name, sellIn, quality
@@ -74,6 +80,7 @@ Mjolnir, -1, 80
 Concert tickets, 9, 27
 Concert tickets, 4, 50
 Concert tickets, -1, 0
+Magic cake, -3, 0
 
 -------- day 7 --------
 name, sellIn, quality
@@ -85,6 +92,7 @@ Mjolnir, -1, 80
 Concert tickets, 8, 29
 Concert tickets, 3, 50
 Concert tickets, -2, 0
+Magic cake, -4, 0
 
 -------- day 8 --------
 name, sellIn, quality
@@ -96,6 +104,7 @@ Mjolnir, -1, 80
 Concert tickets, 7, 31
 Concert tickets, 2, 50
 Concert tickets, -3, 0
+Magic cake, -5, 0
 
 -------- day 9 --------
 name, sellIn, quality
@@ -107,6 +116,7 @@ Mjolnir, -1, 80
 Concert tickets, 6, 33
 Concert tickets, 1, 50
 Concert tickets, -4, 0
+Magic cake, -6, 0
 
 -------- day 10 --------
 name, sellIn, quality
@@ -118,6 +128,7 @@ Mjolnir, -1, 80
 Concert tickets, 5, 35
 Concert tickets, 0, 50
 Concert tickets, -5, 0
+Magic cake, -7, 0
 
 -------- day 11 --------
 name, sellIn, quality
@@ -129,6 +140,7 @@ Mjolnir, -1, 80
 Concert tickets, 4, 38
 Concert tickets, -1, 0
 Concert tickets, -6, 0
+Magic cake, -8, 0
 
 -------- day 12 --------
 name, sellIn, quality
@@ -140,6 +152,7 @@ Mjolnir, -1, 80
 Concert tickets, 3, 41
 Concert tickets, -2, 0
 Concert tickets, -7, 0
+Magic cake, -9, 0
 
 -------- day 13 --------
 name, sellIn, quality
@@ -151,6 +164,7 @@ Mjolnir, -1, 80
 Concert tickets, 2, 44
 Concert tickets, -3, 0
 Concert tickets, -8, 0
+Magic cake, -10, 0
 
 -------- day 14 --------
 name, sellIn, quality
@@ -162,6 +176,7 @@ Mjolnir, -1, 80
 Concert tickets, 1, 47
 Concert tickets, -4, 0
 Concert tickets, -9, 0
+Magic cake, -11, 0
 
 -------- day 15 --------
 name, sellIn, quality
@@ -173,6 +188,7 @@ Mjolnir, -1, 80
 Concert tickets, 0, 50
 Concert tickets, -5, 0
 Concert tickets, -10, 0
+Magic cake, -12, 0
 
 -------- day 16 --------
 name, sellIn, quality
@@ -184,6 +200,7 @@ Mjolnir, -1, 80
 Concert tickets, -1, 0
 Concert tickets, -6, 0
 Concert tickets, -11, 0
+Magic cake, -13, 0
 
 -------- day 17 --------
 name, sellIn, quality
@@ -195,6 +212,7 @@ Mjolnir, -1, 80
 Concert tickets, -2, 0
 Concert tickets, -7, 0
 Concert tickets, -12, 0
+Magic cake, -14, 0
 
 -------- day 18 --------
 name, sellIn, quality
@@ -206,6 +224,7 @@ Mjolnir, -1, 80
 Concert tickets, -3, 0
 Concert tickets, -8, 0
 Concert tickets, -13, 0
+Magic cake, -15, 0
 
 -------- day 19 --------
 name, sellIn, quality
@@ -217,6 +236,7 @@ Mjolnir, -1, 80
 Concert tickets, -4, 0
 Concert tickets, -9, 0
 Concert tickets, -14, 0
+Magic cake, -16, 0
 
 -------- day 20 --------
 name, sellIn, quality
@@ -228,6 +248,7 @@ Mjolnir, -1, 80
 Concert tickets, -5, 0
 Concert tickets, -10, 0
 Concert tickets, -15, 0
+Magic cake, -17, 0
 
 -------- day 21 --------
 name, sellIn, quality
@@ -239,6 +260,7 @@ Mjolnir, -1, 80
 Concert tickets, -6, 0
 Concert tickets, -11, 0
 Concert tickets, -16, 0
+Magic cake, -18, 0
 
 -------- day 22 --------
 name, sellIn, quality
@@ -250,6 +272,7 @@ Mjolnir, -1, 80
 Concert tickets, -7, 0
 Concert tickets, -12, 0
 Concert tickets, -17, 0
+Magic cake, -19, 0
 
 -------- day 23 --------
 name, sellIn, quality
@@ -261,6 +284,7 @@ Mjolnir, -1, 80
 Concert tickets, -8, 0
 Concert tickets, -13, 0
 Concert tickets, -18, 0
+Magic cake, -20, 0
 
 -------- day 24 --------
 name, sellIn, quality
@@ -272,6 +296,7 @@ Mjolnir, -1, 80
 Concert tickets, -9, 0
 Concert tickets, -14, 0
 Concert tickets, -19, 0
+Magic cake, -21, 0
 
 -------- day 25 --------
 name, sellIn, quality
@@ -283,6 +308,7 @@ Mjolnir, -1, 80
 Concert tickets, -10, 0
 Concert tickets, -15, 0
 Concert tickets, -20, 0
+Magic cake, -22, 0
 
 -------- day 26 --------
 name, sellIn, quality
@@ -294,6 +320,7 @@ Mjolnir, -1, 80
 Concert tickets, -11, 0
 Concert tickets, -16, 0
 Concert tickets, -21, 0
+Magic cake, -23, 0
 
 -------- day 27 --------
 name, sellIn, quality
@@ -305,6 +332,7 @@ Mjolnir, -1, 80
 Concert tickets, -12, 0
 Concert tickets, -17, 0
 Concert tickets, -22, 0
+Magic cake, -24, 0
 
 -------- day 28 --------
 name, sellIn, quality
@@ -316,6 +344,7 @@ Mjolnir, -1, 80
 Concert tickets, -13, 0
 Concert tickets, -18, 0
 Concert tickets, -23, 0
+Magic cake, -25, 0
 
 -------- day 29 --------
 name, sellIn, quality
@@ -327,6 +356,7 @@ Mjolnir, -1, 80
 Concert tickets, -14, 0
 Concert tickets, -19, 0
 Concert tickets, -24, 0
+Magic cake, -26, 0
 
 -------- day 30 --------
 name, sellIn, quality
@@ -338,4 +368,5 @@ Mjolnir, -1, 80
 Concert tickets, -15, 0
 Concert tickets, -20, 0
 Concert tickets, -25, 0
+Magic cake, -27, 0
 
